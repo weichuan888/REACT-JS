@@ -1,0 +1,287 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+html, body {
+
+}
+
+.Imagetest .TitreImage h1 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 2.4em;
+  line-height: 1.35em;
+}
+
+.Imagetest .TitreImage p {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 20px;
+  font-weight: 100;
+  opacity: 0.7;
+  padding-top: 1%;
+  padding-bottom: 2%;
+
+}
+
+.Imagetest .TitreImage h1  a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.Imagetest {
+  /*background: url("https://www.walldevil.com/wallpapers/a79/wallpaper-couleur-ecran-background-web-wallpapers-static.jpg");*/
+  background: linear-gradient(to left, blue, aqua);
+  width: 100%;
+  height: 70vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 2%;
+}
+
+.Imagetest .TitreImage button {
+  width: 10%;
+  margin-top: 40px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  border-radius: 10px;
+}
+.Rubrique {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+}
+
+.Texte {
+  padding-top: 30px;
+  text-align: justify;
+  width: 50%;
+  margin-left: 15%;
+}
+
+.Texte h2 {
+  font-size: 2em;
+  font-weight: normal;
+
+}
+.Texte p {
+  font-size: 1.1em;
+  font-weight: lighter;
+  opacity: 0.5;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+.image2 {
+  margin-left: -80%;
+}
+.image2 img {
+  border-radius: 2%;
+}
+
+.Flou {
+  background-size: cover;
+  background-image: url("http://static.francemontagnes.com/sites/default/files/pages/7132679751_7675d430bf_k.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  padding: 2em 0 2em 0;
+  align-items: center;
+}
+
+.Flou .left {
+  width: 60%;
+  height: 100%;
+  padding: 0 20em;
+
+}
+
+.Flou .left ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.Flou .left ul li {
+  border: 2px solid white;
+  margin-top: 5em;
+  margin-left: 4em;
+  margin-right: 2.5em;
+  display: inline-block;
+  transform: rotate(45deg);
+  float: left;
+  width: 100px;
+  height: 100px;
+
+
+}
+
+.Flou .left ul li i {
+  transform: rotate(-45deg);
+  color: yellow;
+  margin-top: 0.2em;
+  align-items: center;
+  padding-top: 2px;
+
+}
+
+.paragraphe {
+  text-align: justify;
+  width: 30%;
+  margin-top: 10%;
+  color: white;
+  margin-left: -20%;
+}
+
+.paragraphe h2 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.paragraphe p {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+.Quatri {
+  height: 700px;
+}
+.Quatri .nom {
+  text-align: center;
+  margin-top: 5%;
+}
+.Quatri .nom h3 {
+  font-size: 2em;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.Quatri .nom h4 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: 3%;
+  opacity: 0.5;
+}
+.section {
+  float : left;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 33.33%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: -19%;
+
+}
+
+.section h5 {
+  font-size: 1.35em;
+  margin-top: 3%;
+  opacity: 0.7;
+
+}
+
+.section p {
+  width: 60%;
+  margin-top: 3%;
+  opacity: 0.5;
+
+}
+
+.Button button {
+  margin-top: 1%;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.125em;
+  text-align: center;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: transparent;
+  text-transform: uppercase;
+  border-radius: 4px;
+  opacity: 0.5;
+  float: left;
+  margin-right: -39%;
+  display: inline-block;
+  margin-left: 43%;
+}
+
+.Sign button {
+  margin-top: 3%;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.125em;
+  text-align: center;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: transparent;
+  text-transform: uppercase;
+  border-radius: 4px;
+  opacity: 0.5;
+  float: left;
+  margin-right: -29%;
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.Sign {
+}
+
+
+
+.CinqV {
+  border: 2px solid black;
+  height: 300px;
+  background-color: red;
+
+}
+
+
+
+.CinqV .article h3 {
+  font-size: 2em;
+  font-weight: normal;
+  opacity: 0.7;
+  text-align: center;
+  width: 50%;
+}
+.CinqV .article p {
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: 3%;
+  opacity: 0.5;
+}
+
+.LogoBis {
+  background-color: yellow;
+  margin-top: 3%;
+}
+.LogoBis i {
+  padding-left: 5%;
+}

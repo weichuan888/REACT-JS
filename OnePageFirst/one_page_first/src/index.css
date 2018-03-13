@@ -1,0 +1,42 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html, body{
+  width: 100%;
+}
+
+
+
+.intro {
+  background-color: red;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  color: white;
+
+}
+.sousintro {
+  background-color: blue;
+  width: 600px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+
+}
+.buttons {
+  background: transparent;
+  color : white;
+  border: 2px solid white;
+}
+
+.Imagetest {
+  background: url("http://www.qygjxz.com/data/out/206/3811045-simple-wallpaper.jpg");
+  background-color: green;
+  width: 100%;
+  height: 60vh;
+  margin: 0;
+
+}

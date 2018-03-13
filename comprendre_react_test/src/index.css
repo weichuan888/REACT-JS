@@ -1,0 +1,21 @@
+.etablishments {
+    display             : flex;
+    align-items         : center;
+    background-color    : gray;
+    padding             : 10px;
+    margin              : 5px 30px;
+    border-radius       : 8px;
+}
+.etablishments-description {
+    flex : 0.8;
+}
+.etablishmentsLikeDislike {
+    flex            : 0.2;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+}
+/*.etablishmentsLikeDislike button {
+    background  : none;
+    border      : none;
+    color       : white;*/
